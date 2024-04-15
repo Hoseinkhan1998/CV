@@ -1,0 +1,76 @@
+.mohoma {
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgba(250, 60, 60, 0.705),rgba(43, 138, 43, 0.61), rgba(6, 6, 247, 0.76), rgba(76, 0, 130, 0.719), violet, rgba(250, 60, 60, 0.705), rgba(250, 60, 60, 0.705),rgba(43, 138, 43, 0.61), rgba(6, 6, 247, 0.76), rgba(76, 0, 130, 0.719), violet, rgba(250, 60, 60, 0.705), rgba(250, 60, 60, 0.705),rgba(43, 138, 43, 0.61), rgba(6, 6, 247, 0.76), rgba(76, 0, 130, 0.719), violet);
+    animation:slidebg 18s linear infinite;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+  }
+
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .mohoma {
+      animation:slidebg 5s linear infinite;
+    }
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pic {
+    display: flex;
+    flex-direction: row;
+    right: 0px;
+    position: relative;
+    width: 25%;
+    align-items: center;
+    margin-right: 48px;
+    padding-top: 40px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 60%;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    
+    .container{
+      margin-top: 50px;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+    }
+
+    .pic {
+      width: 80%;
+      padding-left: 10%;
+      margin-bottom: -30px;
+    }
+
+  }
+
+

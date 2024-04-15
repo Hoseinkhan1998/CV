@@ -1,0 +1,85 @@
+.word {
+	--s: 0.3em;
+	--c: #5a2cffd5;
+	font-weight: 600;
+	color: #71c6ff25;
+	padding-bottom: var(--s);
+	background:
+		linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
+		linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+	-webkit-background-clip: text, padding-box;
+	background-clip: text, padding-box;
+	transition: 0.7s;
+	font-size: 18px;
+	cursor: none;
+
+}
+
+
+
+.word:hover {
+	--_p: 100%
+}
+
+.word2 {
+	--s: 0.3em;
+	--c: #ff2c7dd5;
+	font-weight: 600;
+	color: #71c6ff25;
+	padding-bottom: var(--s);
+	background:
+		linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
+		linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+	-webkit-background-clip: text, padding-box;
+	background-clip: text, padding-box;
+	transition: 0.7s;
+	font-size: 18px;
+	cursor: none;
+
+}
+
+.word2:hover {
+	--_p: 100%
+}
+
+.word3 {
+	--s: 0.3em;
+	--c: #1476d180;
+	font-weight: 600;
+	color: #71c6ff25;
+	padding-bottom: var(--s);
+	background:
+		linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
+		linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+	-webkit-background-clip: text, padding-box;
+	background-clip: text, padding-box;
+	transition: 0.7s;
+	font-size: 18px;
+	cursor: none;
+
+}
+
+.word3:hover {
+	--_p: 100%
+}
+
+.word4 {
+	--s: 0.3em;
+	--c: #ee111180;
+	font-weight: 600;
+	color: #71c6ff25;
+	padding-bottom: var(--s);
+	background:
+		linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
+		linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+	-webkit-background-clip: text, padding-box;
+	background-clip: text, padding-box;
+	transition: 0.7s;
+	font-size: 18px;
+	cursor: none;
+
+}
+
+.word4:hover {
+	--_p: 100%
+}

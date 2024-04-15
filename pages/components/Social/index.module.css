@@ -1,0 +1,9 @@
+.social {
+    color: rgb(52, 64, 65);
+    font-size: 25px;
+    transition: color 0.5s;
+}
+.social:hover {
+    color: rgb(109, 163, 235);
+ 
+}

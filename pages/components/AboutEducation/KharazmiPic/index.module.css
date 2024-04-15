@@ -1,0 +1,41 @@
+.example-container {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next,
+.prev {
+  top: calc(50% - 20px);
+  position: absolute;
+  /* background: rgb(255, 218, 218); */
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.next {
+  right: 40px;
+}
+
+.prev {
+  left: 40px;
+  /* transform: scale(-1); */
+}
+
+.pice {
+  position: absolute;
+  max-width: 50%;
+  border-radius: 20px;
+  max-height: 90%;
+}
