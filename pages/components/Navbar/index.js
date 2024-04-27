@@ -47,13 +47,6 @@ const nav = {
     },
 };
 
-const navlink = [
-    { title: 'About', href: '#about' },
-    { title: 'Projects', href: '#skills&projects' },
-    { title: 'Contact', href: '#contact' },
-
-]
-
 function Menu() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
@@ -63,6 +56,14 @@ function Menu() {
     }
 }
 const Navbar = () => {
+
+    const navlink = [
+        { title: 'About', href: '#about' },
+        { title: 'Projects', href: '#skills&projects' },
+        { title: 'Contact', href: '#contact' },
+    
+    ]
+
     return (
         <motion.section
             exit={{ opacity: 0 }}
