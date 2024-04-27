@@ -1,10 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
-import { images } from "./image-data";
+// import { images } from "./image-data";
 import classes from "./index.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+
+
+const images = [
+  "/images/kharazmi1.png",
+  "/images/kharazmi2.png",
+  "/images/kharazmi3.png",
+];
 
 const variants = {
   enter: (direction) => ({
