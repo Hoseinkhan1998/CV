@@ -6,7 +6,7 @@ import { useRef } from "react";
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import Social from "../components/Social";
+import Social from "../../components/Social";
 import { Assistant } from '@next/font/google'
 
 

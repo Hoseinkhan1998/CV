@@ -1,5 +1,5 @@
 import React from 'react'
-import Social from '../components/Social'
+import Social from '../../components/Social'
 import Image from 'next/image'
 
 const Footer = () => {

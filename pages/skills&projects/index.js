@@ -1,9 +1,9 @@
 import React, { useRef } from 'react'
 import transition from '@/transition'
 import { motion, useInView } from "framer-motion";
-import BlinkText from '../components/BlinkText';
+import BlinkText from '../../components/BlinkText';
 import classes from "./index.module.css"
-import Skills from '../components/Skills';
+import Skills from '../../components/Skills';
 
 
 

@@ -4,7 +4,7 @@ import AboutMe from './about'
 import Contact from './contact'
 import SkillsProjects from './skills&projects'
 import Footer from './footer'
-import Navbar from './components/Navbar'
+import Navbar from '../components/Navbar'
 import classes from "./index.module.css"
 
 const Home = () => {

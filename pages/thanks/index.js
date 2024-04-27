@@ -2,7 +2,7 @@ import { faCircleCheck, faFaceSmileBeam } from '@fortawesome/free-regular-svg-ic
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import Social from '../components/Social'
+import Social from '../../components/Social'
 import classes from './index.module.css'
 import { useRouter } from "next/router";
 const Thanks = () => {

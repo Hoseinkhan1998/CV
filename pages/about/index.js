@@ -1,11 +1,11 @@
 import React, { useRef } from 'react'
 import { motion, useInView } from "framer-motion";
-import Divider from '../components/Divider';
-import AboutChildhood from '../components/AboutChildhood';
-import AboutEducation from '../components/AboutEducation';
-import Introduction from '../components/Introduction';
-import AndNow from '../components/Now';
-import BlinkText from '../components/BlinkText';
+import Divider from '../../components/Divider';
+import AboutChildhood from '../../components/AboutChildhood';
+import AboutEducation from '../../components/AboutEducation';
+import Introduction from '../../components/Introduction';
+import AndNow from '../../components/Now';
+import BlinkText from '../../components/BlinkText';
 
 
 
