@@ -74,7 +74,7 @@ const AnimatedLetter = ({ character, animation }) => {
             {character}
         </motion.span>
     );
-};1
+};
 
 const AnimatedWord = ({ title, animation, isHovered, href }) => {
     return (
