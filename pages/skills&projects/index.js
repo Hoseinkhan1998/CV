@@ -37,11 +37,11 @@ const Projects = () => {
         className={classes.container}>
 
         <Section translateStyle={"translateX(-400px)"}>
-          <Skills skills={["NEXT.JS", "React", "Tailwind", "Framer Motion"]} img="project2.png" link="http://localhost:3000/" />
+          <Skills skills={["NEXT.JS", "React", "Tailwind", "Framer Motion"]} img="project2.png" link="https://www.hoseinmazinani.ir" />
         </Section>
 
         <Section translateStyle={"translateX(400px)"}>
-          <Skills skills={["HTML", "CSS", "NEXT.JS", "React", "Tailwind"]} img="mohma.png" link="https://mohammad-portfolio-orcin.vercel.app/" />
+          <Skills skills={["HTML", "CSS", "NEXT.JS", "React", "Tailwind"]} img="mohma.png" link="https://mohammad-portfolio-master.vercel.app/" />
         </Section>
 
         <Section translateStyle={"translateX(-400px)"}>
