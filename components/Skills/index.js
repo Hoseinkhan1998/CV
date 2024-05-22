@@ -3,12 +3,12 @@ import classes from "./index.module.css"
 import Link from 'next/link'
 
 
-const Skills = ({ skills, img, link }) => {
+const Skills = ({ skills, img, link, description }) => {
     return (
         <div className={classes.container}>
             <div className={classes.skill1} style={{ backgroundImage: `url(/images/${img})` }}>
                 <div className={`w-full flex flex-col px-6 ${classes.content}`}>
-                    <div className={`flex flex-wrap justify-center gap-2 `} style={{padding: '15% 12%',height: '200px' }}>
+                    <div className={`flex flex-wrap justify-center gap-2 `} style={{ padding: '15% 12%', height: '200px' }}>
                         {skills.map((skill) => {
                             return (
                                 <div className='flex justify-center items-center font-extralight text-white px-4 bg-transparent rounded-lg'
@@ -25,6 +25,9 @@ const Skills = ({ skills, img, link }) => {
                         >Visit</Link>
                     </div>
                 </div>
+            </div>
+            <div className='text-[14px] mt-2 pl-3 font-medium pb-2'>
+                <p>{description}</p>
             </div>
         </div>
     )

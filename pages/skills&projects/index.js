@@ -37,39 +37,57 @@ const Projects = () => {
         className={classes.container}>
 
         <Section translateStyle={"translateX(-400px)"}>
-          <Skills skills={["NEXT.JS", "React", "Tailwind", "Framer Motion"]} img="project2.png" link="https://www.hoseinmazinani.ir" />
+          <Skills
+            skills={["NEXT.JS", "React", "Tailwind", "Framer Motion"]}
+            img="project2.png"
+            link="https://www.hoseinmazinani.ir"
+            description="Hossein's interactive CV built with Next.js and subtle animations in React & Tailwind."
+          />
         </Section>
 
         <Section translateStyle={"translateX(400px)"}>
-          <Skills skills={["HTML", "CSS", "NEXT.JS", "React", "Tailwind"]} img="mohma.png" link="https://mohammad-portfolio-master.vercel.app/" />
+          <Skills
+            skills={["React", "Tailwind", "Syncfusion", "Eslint"]}
+            img="dashboard.png"
+            link="https://dashboard-five-flax.vercel.app/"
+            description="Data-rich React dashboard built with Syncfusion components and styled with Tailwind CSS."
+          />
         </Section>
 
         <Section translateStyle={"translateX(-400px)"}>
-          <Skills skills={["React", "Tailwind", "Syncfusion", "Eslint"]} img="dashboard.png" link="https://dashboard-five-flax.vercel.app/" />
+          <Skills
+            skills={["NEXT.JS", "React", "Mongo db", "SWR", "Html&Css"]}
+            img="event.png"
+            link="https://nextjs-tutorial-coral-three.vercel.app/"
+            description="Dynamic event list app built using Next.js, React, MongoDB, and SWR for data management."
+          />
         </Section>
 
         <Section translateStyle={"translateX(400px)"}>
-          <Skills skills={["NEXT.JS", "React", "Mongo db", "SWR", "Html&Css"]} img="event.png" link="https://nextjs-tutorial-coral-three.vercel.app/" />
+          <Skills
+            skills={["React", "MUI", "Axios", "Emotion"]}
+            img="clone.png"
+            link="https://youtube-clone-xi-five.vercel.app/" 
+            description='YouTube clone app built in React with MUI for a sleek UI and Axios for data management.'
+            />
         </Section>
 
         <Section translateStyle={"translateX(-400px)"}>
-          <Skills skills={["NEXT.JS", "React", "Mongo db", "Html", "CSS"]} img="nextjs-tutorial.png" link="https://my-first-next-js-demo.vercel.app/" />
+          <Skills
+            skills={["React", "Tailwind", "Redux", "Next.js"]}
+            img="shoppingcard.png"
+            link="https://shopping-card-coral.vercel.app/"
+            description='Interactive shopping cart built with Next.js, React and Redux for state management.'
+            />
         </Section>
 
         <Section translateStyle={"translateX(400px)"}>
-          <Skills skills={["HTML", "CSS", "React", "Tailwind"]} img="tp.png" link="https://tutorial-portfolio-wheat.vercel.app/" />
-        </Section>
-
-        <Section translateStyle={"translateX(-400px)"}>
-          <Skills skills={["React", "MUI", "Axios", "Emotion"]} img="clone.png" link="https://youtube-clone-xi-five.vercel.app/" />
-        </Section>
-
-        <Section translateStyle={"translateX(400px)"}>
-          <Skills skills={["mui-tel", "MUI", "verification-input", "React", "Tailwind", "swipeable views"]} img="fintech.png" link="https://fintech-mobile-app-psi.vercel.app/" />
-        </Section>
-
-        <Section translateStyle={"translateX(-400px)"}>
-          <Skills skills={["pro-sidebar", "MUI", "React", "Tailwind",]} img="todo.png" link="https://todo-pied-five.vercel.app/" />
+          <Skills
+            skills={["mui-tel", "MUI", "React", "Tailwind", "swipeable views"]}
+            img="fintech.png"
+            link="https://fintech-mobile-app-psi.vercel.app/"
+            description= 'A mobile fintech app built with React & MUI, inspired by Figma, featuring swipeable views.'
+            />
         </Section>
 
       </motion.div>
